@@ -14,7 +14,7 @@ abstract class FlutterSdkTestPlatform extends PlatformInterface {
   ///
   /// Defaults to [MethodChannelFlutterSdkTest].
   static FlutterSdkTestPlatform get instance => _instance;
-  
+
   /// Platform-specific implementations should set this with their own
   /// platform-specific class that extends [FlutterSdkTestPlatform] when
   /// they register themselves.
