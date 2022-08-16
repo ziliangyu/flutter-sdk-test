@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ziliangyu/flutter-sdk-test/compare/v1.0.0...v1.1.0) (2022-08-16)
+
+
+### Features
+
+* ci ([f7134e3](https://github.com/ziliangyu/flutter-sdk-test/commit/f7134e3622896f5e83026853b7c12d9e79ef8ea7))
+
 # 1.0.0 (2022-08-16)
 
 
