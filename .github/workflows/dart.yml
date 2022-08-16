@@ -41,7 +41,7 @@ jobs:
   # release on Github and pub.dev
   publish:
     needs: test
-    if: github.repository == 'ziliangyu/casdoor-flutter-sdk' && github.event_name == 'push'
+    if: github.repository == 'ziliangyu/flutter-sdk-test' && github.event_name == 'push'
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
