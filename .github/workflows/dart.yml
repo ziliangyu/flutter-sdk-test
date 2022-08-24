@@ -40,7 +40,7 @@ jobs:
 
   # release on Github and pub.dev
   publish:
-#    needs: test
+    needs: test
     if: github.repository == 'ziliangyu/flutter-sdk-test' && github.event_name == 'push'
     runs-on: ubuntu-20.04
     steps:
@@ -61,7 +61,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
 
   build:
-      needs: test
+      needs: test,publish
       if: github.repository == 'ziliangyu/flutter-sdk-test' && github.event_name == 'push'
       runs-on: ubuntu-20.04
       steps:
@@ -75,7 +75,7 @@ jobs:
             dryRunOnly: true
             credentialJson: ${{ secrets.CREDENTIAL_JSON }}
   deploy:
-      needs: test
+      needs: test,publish,build
       if: github.repository == 'ziliangyu/flutter-sdk-test' && github.event_name == 'push'
       runs-on: ubuntu-20.04
       steps:
