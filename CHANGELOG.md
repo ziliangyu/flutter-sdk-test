@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/ziliangyu/flutter-sdk-test/compare/v1.4.0...v1.5.0) (2022-08-24)
+
+
+### Features
+
+* ci ([dff3b93](https://github.com/ziliangyu/flutter-sdk-test/commit/dff3b93c6fba0ff44d1e004411ee39198de94cbc))
+* ci ([c38b008](https://github.com/ziliangyu/flutter-sdk-test/commit/c38b00895c19284669ddb84d0f92bf655d3bd83b))
+
 # [1.4.0](https://github.com/ziliangyu/flutter-sdk-test/compare/v1.3.0...v1.4.0) (2022-08-23)
 
 
